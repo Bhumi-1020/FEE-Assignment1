@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.navbar img {
+    margin-inline: 50px;
+    width: 120px;
+    height: 50px;
+}
+.navbar p{
+    padding-top: 17px;
+    font-weight:bolder;
+    color: #000;
+}
+.navbar p:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+button {
+    border-color: dodgerblue;
+    color: dodgerblue;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.navbar button {
+    margin-top: 12px;
+    margin-inline-start: 50px;
+    height: 30px;
+    width: 75px;
+}
+button:hover {
+    cursor: pointer;
+}
+main {
+    padding: 65px;
+    display: flex;
+    background-image: url(https://static3.depositphotos.com/1004451/179/i/450/depositphotos_1791531-stock-photo-presentation-background.jpg);
+} 
+main section, .why-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+section h1 {
+    font-size: 4em;
+    padding: 25px;
+}
+section p {
+    margin-left: 25px;
+    color: grey;
+}
+
+main img {
+    border-radius: 15px;
+    margin-inline-start: 25%;
+}
+h1 {
+    font-size: 2.4em; 
+    font-weight: 1.5em;
+}
+.numbers {
+    background-color: #000;
+    color: #fff;
+    height: 350px;
+    text-align: center;
+    padding: 50px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 0.5em;
+}
+.why {
+    text-align: center;
+    height: 500px;
+    margin: 50px;
+}
+.why div {
+    display: flex;
+    margin-inline: 70px;
+}
+.why-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: left;
+}
+.why img {    
+    border-radius: 15px;
+}
+.merchant {
+    background-color: rgb(213, 233, 253,0.5);
+    text-align: center;
+    height: 600px;
+    padding: 50px;
+    padding-bottom: 90px;
+    align-items: center;
+}
+.options { 
+    max-width: 395px;
+    margin: 48px auto 32px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 0;
+    box-shadow: 2px 1px 2px 2px rgba(0,0,0,0.1);
+}
+.options a {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    color: #3C3C3B;
+    padding: 10px 20px;
+}
+#banking {
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: #fff;
+    margin: 48px auto 32px;
+    padding: 12px 5px;
+}
+.banking {
+    box-shadow: 0 24px 15px rgba(0,0,0,0.03), 0 8px 15px rgba(0,0,0,0.06), 0 12px 16px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    padding: 16px;
+    background: #fff;
+    width: min-content;
+    margin-inline-start: 475px;
+}
+.banking p{
+    letter-spacing: .5px;
+    color: #575656;
+    margin: 16px;
+}
+.consumer {
+    display: flex;
+    margin: 50px 200px;
+}
+.right img{
+    margin-inline: 50px;
+    height: 60px;
+    width: 60px;
+}
+.right p{
+    display: inline-block;
+    margin-block: 15px;
+}
+.stories {
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+    background-image: url(https://static3.depositphotos.com/1004451/179/i/450/depositphotos_1791531-stock-photo-presentation-background.jpg);
+}
+.stories img {
+    border-radius: 100%;
+}
+.stories h3, .stories p{
+    margin-inline: 30px;
+    text-align: center;
+}
+.view {
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.rn {
+    display: flex;
+    margin: 60px;
+}
+.news {
+    box-shadow: 0 2px 8px 1px rgba(0,0,0,0.46);
+    border-radius: 10px;
+    padding: 20px 35px;
+    width: 35%;
+    height: 450px;
+    margin-inline: 20px;
+}
+.news h4{
+    font-size: 1.5em;
+}
+.news p {
+    color: #5f5e5e;
+    line-height: 25px;
+    letter-spacing: 0.625px;
+    padding: 35px 0;
+}
+.read {
+    color: dodgerblue;
+    font-weight: 600;
+    text-decoration: none;
+}
+.read:hover {
+    text-decoration: underline;
+} 
+.copy {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+footer{
+    background-color: rgb(28 28 28);
+    color: white;
+}
+.upper-footer{
+    padding: 60px 0px;
+    display: flex;
+    column-gap: 30px;
+    line-height: 20px;
+}
+.desc{
+    width: 50%;
+    margin-top: 0;
+    padding: 0px 80px;
+}
+.desc img {
+    padding-bottom: 20px;
+}
+.desc h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.general{
+    width: 15%;
+    margin-top: 0;
+    text-align: left; 
+}
+.resources{
+    width: 15%;
+    margin-top: 0;
+    text-align: left;
+}
+.offer{
+    width: 15%;
+    margin-top: 0;
+    text-align: left;
+}
+.list{
+    row-gap: -1px;
+}
+hr {
+    border: 0.1px solid #575656;
+}
+.logos {
+    padding: 40px;
+}
+.logos img{
+    padding: 16px;
+}
+.icons {
+    font-size: x-large;
+}
+.icons :hover{
+    color: dodgerblue;
+}
+.fa {
+    color: rgb(91, 87, 87);
+    justify-content: space-between;
+    padding-inline: 10px;
+    text-decoration: none;
+}
