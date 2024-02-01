@@ -261,6 +261,9 @@ hr {
 .logos img{
     padding: 16px;
 }
+.logos img:hover {
+    cursor : pointer;
+}
 .icons {
     font-size: x-large;
 }
